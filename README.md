@@ -54,15 +54,19 @@ docker-flask-app/
 # 🖥️ How To Run This Project (Build From Source)
 
 ### 1️⃣ Clone the Repository
-
-git clone https://github.com/Gum-Eswar83/docker-flask-app.git  
+```
+git clone https://github.com/Gum-Eswar83/docker-flask-app.git
+```
+```
 cd docker-flask-app
+```
 
 ---
 
 ### 2️⃣ Build Docker Image
-
+```
 docker build -t flask-docker-app .
+```
 
 This command:
 - Reads the Dockerfile  
@@ -73,7 +77,9 @@ This command:
 
 ### 3️⃣ Run the Container
 
+```
 docker run -p 5000:5000 flask-docker-app
+```
 
 This command:
 - Starts the container  
@@ -84,35 +90,43 @@ This command:
 ### 4️⃣ Open in Browser
 
 Open your browser and visit:
-
+```
 http://localhost:5000
-
+```
 ---
 
 # 🌍 Run Directly From Docker Hub
 
 The image is publicly available on Docker Hub.
 
-Docker Hub Repository:  
+Docker Hub Repository: 
+``` 
 https://hub.docker.com/r/geswar83/flask-docker-app
+```
 
 ---
 
 ### 1️⃣ Pull the Image
 
+```
 docker pull geswar83/flask-docker-app:1.0
+```
 
 ---
 
 ### 2️⃣ Run the Container
 
+```
 docker run -p 5000:5000 geswar83/flask-docker-app:1.0
+```
 
 ---
 
 ### 3️⃣ Open in Browser
 
+```
 http://localhost:5000
+```
 
 ---
 
