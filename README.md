@@ -46,6 +46,7 @@ docker-flask-app/
 └── screenshots/
     └── output.png
 
+
 ---
 
 # 🖥️ How To Run This Project (Build From Source)
@@ -129,7 +130,7 @@ Hello Eswar! Docker is working
 
 # 📦 Docker Image Details
 
-- Image Name: eswar83/flask-docker-app  
+- Image Name: geswar83/flask-docker-app  
 - Version: 1.0  
 - Registry: Docker Hub  
 - Publicly accessible  
