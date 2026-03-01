@@ -36,6 +36,7 @@ This project represents a complete end-to-end Docker workflow:
 
 ## 📂 Project Structure
 
+```
 docker-flask-app/
 │
 ├── app.py
@@ -45,6 +46,7 @@ docker-flask-app/
 ├── README.md
 └── screenshots/
     └── output.png
+```
 
 
 ---
